@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Desenvolvimento Frontend</title>
@@ -7,22 +8,24 @@
 </head>
 <body>
     <h1>Desenvolvimento Front-end</h1>
-    <p>O objetivo deste site é de servir como um guia rápido para aprender e revisar alguns conceitos de desenvolvimento web.</p>
+    <p>O objetivo deste site é servir como um guia rápido para aprender e revisar alguns conceitos básicos de desenvolvimento web.</p>
     <p>O site <a href="https://roadmap.sh/">roadmap.sh</a> já contém um ótimo guia com passo a passo para aprender desenvolvimento Front-end: <a href="https://roadmap.sh/frontend">Frontend Developer</a></p>
-    <p>Neste guia, vou colocar apenas os materiais que mais gostei, além de algumas notas que acho importantes.</p>
-    <!-- <p>Nota: saber inglês é muito importante, pois muito material bom para estudar programação está em inglês. Por isso, tem muito material em inglês aqui, porém vou também linkar materiais em português para deixar esse guia mais acessível.</p> -->
+    <p>Neste guia, vou colocar os materiais que mais gostei, além de algumas notas que acho importantes.</p>
+    <p>Nota: saber inglês é muito importante, pois muito material bom para estudar programação está em inglês. Por isso, tem muito material em inglês aqui, porém vou também linkar materiais em português para deixar esse guia mais acessível.</p>
     <h2>HTML</h2>
     <p>HTML (HyperText Markup Language ou Linguagem de Marcação de Hipertexto) é usado para dar estrutura ao site, que depois pode ser estilizado com CSS e deixar interativo com JavaScript.</p>
-    <p>Material sugerido:</p>
+    <p>Material:</p>
     <ul>
-        <li><a href="https://www.w3schools.com/html/default.asp">W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML">MDN: Introdução ao HTML</a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp">W3Schools: HTML Tutorial</a></li>
     </ul>
     <h3>HTML Semântico</h3>
     <p>Um elemento semântico é um elemento que tem conteúdo bem definido.</p>
-    <p>Exemplo de elementos semânticos: &#60p&#62 e &#60section&#62.</p>
-    <p>Exemplo de elementos não-semânticos: &#60div&#62 e &#60span&#62.</p>
-    <p>Material sugerido:</p>
+    <p>Exemplo de elementos semânticos: &lt;p&&gt; e &lt;section&&gt;.</p>
+    <p>Exemplo de elementos não-semânticos: &lt;div&&gt; e &lt;span&&gt;.</p>
+    <p>Material:</p>
     <ul>
+        <li><a href="https://web.dev/learn/html/semantic-html?hl=pt-br">web.dev: HTML Semântico</a></li>
         <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3Schools: HTML Semantics</a></li>
         <li><a href="https://www.freecodecamp.org/news/html-best-practices/">freeCodeCamp(): HTML Best Practices</a></li>
     </ul>
@@ -30,31 +33,140 @@
     <p>Tópicos específicos desse assunto:</p>
     <ul>
         <li><a href="https://pt.stackoverflow.com/questions/326021/qual-a-diferen%c3%a7a-sem%c3%a2ntica-entre-section-e-article">Qual a diferença semântica entre section e article?</a></li>
-        <li><a href="https://stackoverflow.com/questions/271743/whats-the-difference-between-b-and-strong-i-and-em">Qual a diferença entre &#60b&#62 e &#60strong&#62, &#60i&#62 e &#60em&#62?</a></li>
+        <li><a href="https://stackoverflow.com/questions/271743/whats-the-difference-between-b-and-strong-i-and-em">What's the difference between &lt;b&gt; and &lt;strong&gt;, &lt;i&gt; and &lt;em&gt;?</a></li>
     </ul>
     <h3>Acessibilidade</h3>
     <p>Acessibilidade é a prática de fazer com que os seus sites sejam acessíveis para o maior número de pessoas.</p>
-    <p>Material sugerido:</p>
+    <p>Material:</p>
     <ul>
-        <li><a href="https://web.dev/learn/html/welcome?hl=pt-br">web.dev</a></li>
-        <li><a href="https://www.w3schools.com/html/default.asp">W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Accessibility/HTML">MDN: Boas práticas em acessibilidade</a></li>
+        <li><a href="https://www.w3.org/WAI/tips/developing/">w3.org: Developing for Web Accessibility</a></li>
     </ul>
-    <h3>SEO</h3>
+    <p>Dica: a ferramenta <a href="https://validator.w3.org/">Validator</a> feita por W3C ajuda muito para saber se o seu código HTML está bem escrito.</p>
     <h2>CSS</h2>
-    <h3>Layouts</h3>
-    <p>O tipo de layout que escolher vai influenciar na acessibilidade do site nos navegadores antigos.</p>
-    <p>Float e position</p>
-    <p>Flexbox</p>
-    <p>Grid</p>
-    <h3>Design Responsivo</h3>
-    <h3>Arquitetura</h3>
-    <p>BEM</p>
-    <p>smacss</p>
-    <p>oocss</p>
-    <h3>Preprocessadores</h3>
-    <p>SASS</p>
-    <h3>Frameworks</h3>
+    <p>CSS (Cascading Style Sheets ou Folha de Estilos em Cascata) é usado para estilizar suas paǵinas web.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps">MDN: Primeiros passos com CSS</a></li>
+        <li><a href="https://www.w3schools.com/css/">W3Schools: CSS Tutorial</a></li>
+    </ul>
+    <h3>Layout</h3>
+    <p>A ferramenta escolhida para fazer o layout vai influenciar na acessibilidade do site nos navegadores antigos e o nível de complexidade de implementação.</p>
+    <h4>Box model</h4>
+    <p>Box model é basicamente uma caixa que envolve todo elemento HTML.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/css/css_boxmodel.asp">W3Schools: CSS Box Model</a></li>
+        <li><a href="https://tableless.github.io/iniciantes/manual/css/box-model.html">Tableless: CSS Box Model</a></li>
+    </ul>
+    <h4>Display</h4>
+    <p>A propriedade display é usada para controlar como os elementos são mostrados no site.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/css/css_display_visibility.asp">W3Schools: CSS Display</a></li>
+        <li><a href="https://tableless.github.io/iniciantes/manual/css/display.html">Tableless: Propriedade Display</a></li>
+    </ul>
+    <h4>Float</h4>
+    <p>Usado para flutuar um elemento para a esquerda ou direita.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://tableless.github.io/iniciantes/manual/css/float-clear.html">Tableless: Propriedade Float e Clear</a></li>
+        <li><a href="https://css-tricks.com/all-about-floats/">CSS Tricks: All About Floats</a></li>
+        <li><a href="https://www.w3schools.com/css/css_float.asp">W3Schools: CSS Floats</a></li>
+    </ul>
+    <h4>Position</h4>
+    <p>Usado para definir o tipo de posicionamento de um elemento.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://www.freecodecamp.org/portuguese/news/a-propriedade-position-no-css-explicada-e-com-exemplos/">freeCodeCamp(): A propriedade position no CSS explicada e com exemplos</a></li>
+        <li><a href="https://www.w3schools.com/css/css_positioning.asp">W3Schools: CSS Position</a></li>
+    </ul>
+    <p>Nota: Fazer layouts usando apenas float e position pode ser complexo de implementar, mas pode ser necessário se o objetivo é fazer um site que funciona bem em navegadores antigos como o Internet Explorer.</p>
+    <p>Dica: <a href="https://caniuse.com/">CanIUse</a> é um ótimo site para saber se uma propriedade, elemento, etc, funciona em uma versão de navegador específica.</p>
+    <h4>Flexbox</h4>
+    <p>É uma forma mais eficiente de alinhar e distribuir espaço entre itens em um container.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox">MDN: Conceitos básicos de flexbox</a></li>
+        <li><a href="https://flexboxfroggy.com/">Jogo Flexbox Froggy</a></li>
+        <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks: A Complete Guide to Flexbox</a></li>
+    </ul>
+    <h4>Grid</h4>
+    <p>CSS Grid é uma forma de layout bidimensional baseada em grade.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">MDN: Conceitos básicos de Grid Layout</a></li>
+        <li><a href="https://cssgridgarden.com/">Jogo Grid Garden</a></li>
+        <li><a href="https://www.w3schools.com/css/css_grid.asp">W3Schools: CSS Grid Layout Module</a></li>
+        <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Tricks: A Complete Guide to CSS Grid</a></li>
+    </ul>
+    <p>Nota: navegadores antigos como o Internet Explorer não possuem o flexbox e o grid totalmente implementado.</p>
+    <h3>Responsive Web Design (RWD)</h3>
+    <p>Web Design Responsivo é a técnica de garantir que o seu site seja responsivo, ou seja, que se adapte bem a qualquer tamanho de tela.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/css/css_rwd_intro.asp">W3Schools: Responsive Web Design</a></li>
+        <li><a href="https://web.dev/learn/design/welcome?hl=pt-br">web.dev: Design Responsivo</a></li>
+    </ul>
+    <h3>Arquitetura CSS</h3>
+    <p>Modificar o código CSS vai ficando mais difícil conforme o sistema cresce de forma desorganizada (<a href="https://pt.stackoverflow.com/questions/31315/o-que-%C3%A9-c%C3%B3digo-spaghetti">código espaguete</a>).</p>
+    <p>Usar uma arquitetura no CSS melhora a legibilidade e facilita a manutenção do código.</p>
+    <h4>BEM</h4>
+    <p>BEM é uma metodologia que trabalha com Blocos, Elementos e Modificadores (BEM). É uma convenção popular para dar nome às classes.</p>
+    <p>BEM é uma aplicação dos conceitos do OOCSS.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://desenvolvimentoparaweb.com/css/bem/">BEM: guia definitivo do padrão CSS mais famoso</a></li>
+        <li><a href="https://getbem.com/introduction/">BEM: Introduction</a></li>
+        <li><a href="https://getbem.com/naming/">BEM: Naming</a></li>
+    </ul>
+    <h4>OOCSS</h4>
+    <p>CSS Orientado a Objetos (OOCSS, sigla em inglês) busca reduzir repetição de código com objetos CSS, que é todo padrão visual que se repetirá no site.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://allonsmandy.netlify.app/blog/arquitetura-css-oocss/">Arquitetura CSS: OOCSS</a></li>
+        <li><a href="https://imasters.com.br/css/object-oriented-css-a-teoria-das-classes-reutilizaveis-oocss">Object Oriented CSS – A teoria das classes reutilizáveis</a></li>
+    </ul>
+    <h4>SMACSS</h4>
+    <p>Arquitetura Escalável e Modular para CSS (SMACSS, sigla em inglês). Seu objetivo principal é categorizar regras CSS.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://www.anselme.com.br/2024/05/29/smacss-scalable-and-modular-architecture-for-css/">SMACSS – Scalable and Modular Architecture for CSS</a></li>
+        <li><a href="https://smacss.com/">SMACSS</a></li>
+    </ul>
+    <h3>Pré-processador</h3>
+    <p>Pré-processador é um programa que permite gerar CSS a partir de uma sintaxe única desse pré-processador, além de adicionar algumas funcionalidades extras que não existem no CSS puro.</p>
+    <h4>Sass</h4>
+    <p>Sass é um pré-processador para CSS que adiciona funcionalidades como variáveis, aninhamento, mixins, entre outros.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://sass-lang.com/guide/">Sass Basics</a></li>
+        <li><a href="https://sass-lang.com/documentation/">Sass: documentation</a></li>
+        <li><a href="https://www.w3schools.com/sass/sass_intro.php">W3Schools: Sass introduction</a></li>
+        <li><a href="https://www.ufsm.br/pet/sistemas-de-informacao/2021/09/22/o-que-e-sass-venha-entender-esse-novo-metodo-de-escrever-css">O que é SASS? Venha entender esse novo método de escrever CSS</a></li>
+    </ul>
+    <p>Nota: @import foi descontinuado e seu uso é desencorajado. Em seu lugar, use o @use e @forward.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=CR-a8upNjJ0&ab_channel=KevinPowell">Stop using @import with Sass</a></li>
+        <li><a href="https://stefaniefluin.medium.com/the-new-sass-module-system-out-with-import-in-with-use-e1bd8ba032d0">The New SASS Module System: Out with @import, In with @use</a></li>
+    </ul>
+    <p>Dica: SASS tem integração nativa com BEM.</p>
+    <p>Dica:Com o SASS, você pode usar a <a href="https://sass-guidelin.es/#the-7-1-pattern">estrutura de arquivos 7-1</a>>: 7 diretórios, 1 arquivo.</p>
+    <h3>Framework CSS</h3>
+    <p>Framework CSS fornece estilos predefinidos e ferramentas que permitem criar interfaces e layouts com menos esforço e tempo.</p>
+    <h4>Bootstrap</h4>
+    <p>Bootstrap é uma ferramenta gratuita para desenvolvimento HTML, CSS e JS.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://getbootstrap.com.br/">Bootstrap</a></li>
+    </ul>
     <h2>JavaScript</h2>
-    <h2>Sistemas de Controle de Versionamento</h2>
+    <p>JavaScript permite adicionar interatividade aos sites.</p>
+    <p>Material:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/js/">W3Schools: JavaScript Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript">MDN: Primeiros passos com JavaScript</a></li>
+    </ul>
 </body>
 </html>
