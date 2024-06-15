@@ -1,0 +1,13 @@
+// This file contains very basic styles.
+
+@use "../abstracts/index" as *;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
