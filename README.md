@@ -4,8 +4,9 @@ O objetivo deste projeto é servir como um guia rápido para aprender e revisar 
 # Implementar
 - ícones de favorito e bandeiras para indicar a linguagem, ao lado dos materiais
 - usar caixas para fazer notas e observações
-- ter opção para filtrar materiais:
+- ter opção para filtrar conteúdo:
     - básico: mostra apenas os materiais mais básicos
     - avançado: mostra todos os materiais
 - melhorar acessibilidade
-- melhorar visibilidade do site
+- melhorar visibilidade do site (SEO)
+- continuar adicionando conteúdo
