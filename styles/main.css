@@ -320,12 +320,33 @@ html {
 body {
   max-width: 50%;
   margin: auto;
+  font-family: NeueHansKendrick, Arial, sans-serif;
 }
 
 ul {
   margin: 1em 0 1em 2em;
 }
 
+@font-face {
+  font-family: NeueHansKendrick;
+  src: url("../materials/fonts/NeueHansKendrick-Regular.otf");
+}
+@font-face {
+  font-family: NeueHansKendrick;
+  src: url("../materials/Fontes/NeueHansKendrick-RegularItalic.otf");
+  font-style: italic;
+}
+@font-face {
+  font-family: NeueHansKendrick;
+  src: url("../materials/Fontes/NeueHansKendrick-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: NeueHansKendrick;
+  src: url("../materials/Fontes/NeueHansKendrick-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
 /**
  * Clear inner floats
  */
@@ -343,7 +364,7 @@ html {
 }
 
 body {
-  font-size: 1.6em;
+  font-size: 1.7em;
 }
 
 p {
