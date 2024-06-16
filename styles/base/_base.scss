@@ -16,6 +16,11 @@ body {
     max-width: 50%;
     margin: auto;
     font-family: NeueHansKendrick, Arial, sans-serif;
+
+    @media only screen and (max-width: 600px) {
+        max-width: 100%;
+        margin: 0.5em;
+    } 
 }
 
 ul {
